@@ -108,7 +108,7 @@ header{
 .circle {
     width: 100px;
     height: 100px;
-    background: url(image/alam.jpg);
+    background: url(./alam.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid #EFE1D1;

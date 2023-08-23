@@ -1,0 +1,374 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+ background-color: #331D2C;
+ display: flex;
+ flex-direction: column;
+ margin: 0px;
+ padding: 0px;
+}
+
+header:hover{
+    color: coral;
+}
+
+header{
+    background-color:#3F2E3E;
+    color: #EFE1D1;
+    text-align: center;
+    padding: 1rem;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.about, .service, .skills, .contact, footer{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Section*/
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    padding: 0.5rem;
+    margin: 10px;
+}
+
+.navbar li{
+    margin-right: 1rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:#EFE1D1;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.navbar .button:hover{
+    background:white;
+}
+
+.navbar a:hover{
+    color: blue;
+}
+
+.button{
+    padding: 10px;
+    background-color: #3F2E3E;
+    border: none;
+    border-radius:5px;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+
+/* Home section */
+
+.home {
+    text-align: center;
+    padding: 20px;
+    background-color: #3F2E3E;
+    margin: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.text-1 {
+    color: #EFE1D1;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.text-2 {
+    color: #EFE1D1;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.text-2 span {
+    color: coral;
+}
+
+.text-3 {
+    color: #EFE1D1;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.text-3 span {
+    color: coral; 
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: url(image/alam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #EFE1D1;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* About Section */
+
+.about{
+    padding: 10px;
+    background-color: #EFE1D1;
+    text-align: center;
+    margin: 10px;
+    height: 100%;
+}
+
+.about .text{
+    text-align: justify;
+    font-size: 1.5rem;
+    color: #331D2C;
+
+}
+.about span .web:hover{
+    color: darkgreen;
+}
+.about span .creator:hover{
+    color: darkblue;
+}
+.about span .engineer:hover{
+    color: darkred;
+}
+
+.about span{
+    text-align: left;
+    color: coral;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #EFE1D1;
+    cursor: pointer;
+}
+
+
+.about .title{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #331D2C;
+    margin: 0%;
+}
+
+.about .id{
+    color: coral;
+    margin: 0%;
+    padding-bottom: 10px;
+}
+.id span{
+    color: #331D2C;
+    margin: 0%;
+}
+
+.about .p{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* Service Section */
+
+.service{
+    height: 100%;
+    text-align: center;
+    background-color: #3F2E3E;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card{
+    width: 50%;
+}
+
+.service .title{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #EFE1D1;
+    margin: 0%;
+}
+
+.service .provide{
+    color: coral;
+    margin: 0%;
+    padding-bottom: 10px;
+}
+.provide span{
+    font-size: 1.5rem;
+    color: #EFE1D1;
+    margin: 0%;
+}
+
+.service .design:hover{
+    background: coral;
+}
+
+.service .design{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #331D2C;
+    text-align: center;
+    color: #EFE1D1;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.service .design span:hover{
+    color: #331D2C;
+}
+
+.service .advertising:hover{
+    background: coral;
+}
+
+.service .advertising{
+    width: 100%;
+    height: 100%;
+    background-color: #331D2C;
+    text-align: center;
+    color: #EFE1D1;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    gap: 10px;
+    cursor: pointer;
+}
+.service .advertising span:hover{
+    color: #331D2C;  
+}
+
+/* Skills section */
+
+.skills{
+    height: 100%;
+    text-align: center;
+    background-color: #EFE1D1;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.skills .title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #331D2C;
+    margin: 0%;
+}
+
+.skills .know{
+    color: coral;
+    margin: 0%;
+    padding-bottom: 10px;
+}
+
+.skills .know span{
+    font-size: 1.5rem;
+    color: #331D2C;
+}
+
+.skills .creative{
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-top: 10px;
+    color:#331D2C;
+}
+
+.skills .creative .text{
+    font-size: 1rem;
+    color: black;
+}
+
+.skills .my-skills ul{
+    font-size: 1.5rem;
+    text-align: justify;
+    list-style: none;
+    color: coral;
+    font-weight: bold;
+    padding-left: 0%;
+    cursor: pointer;
+}
+
+.skills .my-skills ul .black:hover{
+    color: black;
+}
+.skills .my-skills ul .green:hover{
+    color: darkgreen;
+}
+.skills .my-skills ul .blue:hover{
+    color: darkblue;
+}
+.skills .my-skills ul .red:hover{
+    color: darkred;
+}
+
+/* contact section */
+.contact{
+    height: 100%;
+    background-color: #3F2E3E;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .contact h2{
+    text-align: center;
+    color: #EFE1D1;
+    font-size: 2rem;
+    margin: 0px;
+  }
+
+  .contact .get{
+    text-align: center;
+    color: coral;
+    margin: 0%;
+  }
+
+  .contact .get span{
+    font-size: 1.5rem;
+    color: #EFE1D1;
+  }
+  .contact-info p{
+    color: #EFE1D1;
+    font-size: 1.5rem;
+    padding-left: 20px;
+  }
+
+ .contact-info .info span{
+    color: coral;
+    font-weight: bold;
+    font-size: 2rem;
+ }
+
+  .contact .social-link ul{
+    list-style: none;
+    margin: 0%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 0%;
+  }
+
+  .social-link a{
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+
+  .social-link a:hover{
+    color: darkred;
+  }
+
+/* Footer section */
+
+footer{
+    background-color: #EFE1D1;
+    color: #331D2C;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5rem;
+}
